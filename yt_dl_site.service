@@ -1,0 +1,12 @@
+[Unit]
+Description=YT DL Site
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/srv/yt_dl_site
+ExecStart=poetry run gunicorn main:app -b 0.0.0.0:80
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
