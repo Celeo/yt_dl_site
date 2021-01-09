@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Save video</h2>
+<br />
+
+<form method="POST" action="{{ url_for('save') }}">
+  <input type="text" name="url" required />
+  <br />
+  <br />
+  <button type="submit">Save</button>
+</form>
+
+{% endblock %}

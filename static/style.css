@@ -1,0 +1,21 @@
+body {
+  background-color: #2a2b2b;
+  color: white;
+}
+
+#main {
+  margin-top: 5rem;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 150%;
+}
+
+.alert-error {
+  color: red;
+}
+
+.alert-success {
+  color: lightgreen;
+}

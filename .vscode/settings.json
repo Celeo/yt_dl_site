@@ -1,0 +1,10 @@
+{
+  "python.pythonPath": "/home/matt/.cache/pypoetry/virtualenvs/yt-dl-site-iqOKp7rt-py3.9",
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "python.formatting.provider": "black",
+  "files.associations": {
+    "*.html": "jinja-html"
+  }
+}
